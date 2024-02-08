@@ -13,7 +13,7 @@ Follow the instructions in [Installation from Source Code](https://www.postgresq
 to learn how to compile PostgreSQL for your platform.
 
 ## Contributing
-Submissions are not accepted through GitHub. Patches are created and attached to
+Submissions are not accepted through GitHub or GitLab. Patches are created and attached to
 emails, sent to [pgsql-hackers](https://www.postgresql.org/list/pgsql-hackers/).
 
 Read more about making contributions on the [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F) wiki page.
