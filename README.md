@@ -16,7 +16,7 @@ to learn how to compile PostgreSQL for your platform.
 Submissions are not accepted through GitHub. Patches are created and attached to
 emails, sent to [pgsql-hackers](https://www.postgresql.org/list/pgsql-hackers/).
 
-Read more about making contributions on the wiki page [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
+Read more about making contributions on the [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F) wiki page.
 
 ## Copyright and License
-Copyright and license information can be found in the [COPYRIGHT](COPYRIGHT) file.
+Copyright and license information can be found in the file [COPYRIGHT](COPYRIGHT).
