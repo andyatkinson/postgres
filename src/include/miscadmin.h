@@ -91,6 +91,7 @@ extern PGDLLIMPORT volatile sig_atomic_t InterruptPending;
 extern PGDLLIMPORT volatile sig_atomic_t QueryCancelPending;
 extern PGDLLIMPORT volatile sig_atomic_t ProcDiePending;
 extern PGDLLIMPORT volatile sig_atomic_t IdleInTransactionSessionTimeoutPending;
+extern PGDLLIMPORT volatile sig_atomic_t TransactionTimeoutPending;
 extern PGDLLIMPORT volatile sig_atomic_t IdleSessionTimeoutPending;
 extern PGDLLIMPORT volatile sig_atomic_t ProcSignalBarrierPending;
 extern PGDLLIMPORT volatile sig_atomic_t LogMemoryContextPending;
@@ -332,6 +333,7 @@ typedef enum BackendType
 	B_BG_WRITER,
 	B_CHECKPOINTER,
 	B_LOGGER,
+	B_SLOTSYNC_WORKER,
 	B_STANDALONE_BACKEND,
 	B_STARTUP,
 	B_WAL_RECEIVER,

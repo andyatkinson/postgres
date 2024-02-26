@@ -333,6 +333,8 @@ BuildAccumulator
 BuiltinScript
 BulkInsertState
 BulkInsertStateData
+BulkWriteBuffer
+BulkWriteState
 CACHESIGN
 CAC_state
 CCFastEqualFN
@@ -2018,6 +2020,7 @@ PendingFsyncEntry
 PendingRelDelete
 PendingRelSync
 PendingUnlinkEntry
+PendingWrite
 PendingWriteback
 PerLockTagEntry
 PerlInterpreter
@@ -2325,6 +2328,7 @@ RelocationBufferInfo
 RelptrFreePageBtree
 RelptrFreePageManager
 RelptrFreePageSpanLeader
+RemoteSlot
 RenameStmt
 ReopenPtrType
 ReorderBuffer
@@ -2584,6 +2588,7 @@ SlabBlock
 SlabContext
 SlabSlot
 SlotNumber
+SlotSyncCtxStruct
 SlruCtl
 SlruCtlData
 SlruErrorCause
